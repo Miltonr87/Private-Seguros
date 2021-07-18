@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Ubuntu", Arial, sans-serif;
+  font-family: Ubuntu;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Ubuntu", Arial, sans-serif;
+  font-family: Ubuntu;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .gtco-nav {
   position: absolute;
+  background-color: black;
   top: 0;
   left: 0;
   margin: 0;
@@ -116,7 +117,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo em {
-  color: #000000;
+  color:#fff;
+  
 }
 .gtco-nav a {
   padding: 5px 10px;
@@ -284,7 +286,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 64px;
   line-height: 1.5;
   font-weight: 300;
-  font-family: "Kaushan Script", cursive !important;
+  font-family: Ubuntu, cursive !important;
 }
 @media screen and (max-width: 768px) {
   #gtco-header h1 {
@@ -308,7 +310,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
 }
 #gtco-header .form-wrap h3 {
-  font-family: "Kaushan Script", cursive;
+  font-family: Ubuntu, cursive;
 }
 #gtco-header .form-wrap .tab-menu {
   padding: 0 !important;
@@ -660,7 +662,7 @@ form label {
 }
 
 .cursive-font {
-  font-family: "Kaushan Script", cursive;
+  font-family: Ubuntu, cursive;
 }
 
 .primary-color {
@@ -1318,7 +1320,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Ubuntu", Arial, sans-serif;
+  font-family: Ubuntu;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 4px;
