@@ -10,9 +10,10 @@
 * 	Template Style 1
 *
 * ======================================================= */
+
 body {
   font-family: Ubuntu;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   color: #777;
@@ -47,7 +48,7 @@ body {
 }
 
 a {
-  color: #000000;
+  color: darkgoldenrod;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -104,6 +105,11 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 1001;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+#video {
+  background-color: black;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-nav {
     padding: 20px 0;
@@ -117,8 +123,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo em {
-  color:#fff;
-  
+  color:darkgoldenrod;
 }
 .gtco-nav a {
   padding: 5px 10px;
@@ -260,7 +265,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #gtco-header .mt-text {
-  margin-top: 7em;
+  margin-top: 1em;
   margin-bottom: 3em;
 }
 @media screen and (max-width: 768px) {
@@ -393,6 +398,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   position: relative;
+}
+
+#video {
+  background-color: black;
 }
 
 .gtco-video {
@@ -600,7 +609,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #000000;
+  color: darkgoldenrod;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1195,12 +1204,13 @@ form label {
   opacity: 1;
   visibility: visible;
 }
+
 .gototop a {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background: darkgoldenrod;
+  color: black;
   text-align: center;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1215,6 +1225,7 @@ form label {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
+  color: #fff;
 }
 
 .gtco-nav-toggle {
@@ -1344,13 +1355,15 @@ form label {
 }
 
 .btn-primary {
-  background: #fff;
-  color: #000000;
-  border: 2px solid #000000 !important;
+  background: #000000;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #fcbe61 !important;
-  border-color: #fcbe61 !important;
+  background: #fff !important;
+  border-color: #000000 !important;
+  color: #000000 !important;
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1514,11 +1527,12 @@ form label {
 }
 
 .row-mt-15em {
-  margin-top: 15em;
+  margin-top: 9em;
 }
+
 @media screen and (max-width: 768px) {
   .row-mt-15em {
-    margin-top: 7em;
+    margin-top: 0em;
   }
 }
 
@@ -1857,7 +1871,12 @@ form label {
   text-decoration: none !important;
 }
 
+
 @media screen and (max-width: 768px) {
+  iframe {
+    width: 80%;
+  }
+
   .macbook-wrap img {
     max-width: 100%;
   }
